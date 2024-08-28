@@ -20,7 +20,13 @@
 3. Run npm install to install dependencies
 4. Test the project with `npm run start`
 
-## Create your Azure Open AI Assistant
+## Create a Git Ignore File
+
+- Create a .gitignore file to ignore node_modules and .env files (please don't push my OpenAI API Key ☠️ to any public repository)  
+
+> @workspace create a gitignore for this project, knowing that all the projects is inside a folder called game/text-based-game so for example the node modules is located at game/text-based-game/node_modules
+
+## Create your Open AI Assistant
 
 1. Use Copilot Chat to create a method called createAssistant using Node.js and openai.
 
@@ -60,11 +66,7 @@ start to read from stdin and write to stdout
 - Create a new file called INSTRUCTIONS.md with the instructions for the game
 - Add persistence to the game using a JSON file to save the state of the game
 
-## Finally
 
-- Create a .gitignore file to ignore node_modules and .env files (please don't push my OpenAI API Key ☠️ to any public repository)  
-
-> @workspace create a gitignore for this project, knowing that all the projects is inside a folder called game/text-based-game so for example the node modules is located at game/text-based-game/node_modules
 
 ## Troubleshooting
 
@@ -72,28 +74,3 @@ start to read from stdin and write to stdout
 
 > Use copilot chat using command TerminalSelection to see how to fix the error
 - npm install dotenv
-
-
-## Hack's
-
-This is the implementation using OpenAI Node.js SDK to create an assistant with a file.
-
-```javascript
-    const file = await openai.files.create({
-        file: fs.createReadStream("LORE.md"),
-        purpose: "fine-tune",
-    });
-
-    const assistant = await openai.beta.assistants.create({
-            name: "Dungeon Master",
-            file_ids: [file.id],
-            model: 'gpt-4o',
-            tool_resources: {
-            code_interpreter: {
-                file_ids: [file.id]
-            }
-        }
-    })
-
-    return assistant.id
-```
