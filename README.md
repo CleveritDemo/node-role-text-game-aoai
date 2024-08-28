@@ -6,7 +6,7 @@
 
 > your are a dungeon master and you have to create the lore for a text based game, so create a md file with the instructions and also the game lore
 
-### Once you have the file called LORE.md, we will going to create a NodeJS game from a Scratcg with the following steps.
+### Once you have the file called LORE.md, we will going to create a NodeJS game from a Scratch with the following steps.
 
 ## Create a Node.js Project
 
