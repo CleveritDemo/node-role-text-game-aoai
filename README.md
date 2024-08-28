@@ -22,9 +22,9 @@
 
 ## Create your Azure Open AI Assistant
 
-1. Use Copilot Chat to translate create-assitant.sh to Node.js using openai.
+1. Use Copilot Chat to create a method called createAssistant using Node.js and openai.
 
-> create an implementation based on #file:create-assistant.sh for my node project using openai
+> create an implementation based on #file:implementationExample.js for my node project using openai
 
 2. Make modifications on createAssistant.js to return the id of the assistant created
 
