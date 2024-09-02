@@ -1,0 +1,14 @@
+{
+  "name": "text-based-game",
+  "version": "1.0.0",
+  "description": "A text-based game",
+  "main": "src/game.js",
+  "scripts": {
+    "start": "node src/game.js"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {},
+  "keywords": []
+}
