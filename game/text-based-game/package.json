@@ -4,7 +4,8 @@
   "description": "A text-based game",
   "main": "src/game.js",
   "scripts": {
-    "start": "node src/game.js"
+    "start": "node src/game.js",
+    "test": "jest"
   },
   "author": "Your Name",
   "license": "MIT",
@@ -13,5 +14,8 @@
     "dotenv": "^16.4.5",
     "openai": "^4.57.0"
   },
-  "keywords": []
+  "keywords": [],
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
 }
