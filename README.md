@@ -71,6 +71,7 @@ start to read from stdin and write to stdout
 - Create a new file called INSTRUCTIONS.md with the instructions for the game
 - Add persistence to the game using a JSON file to save the state of the game
 - Add a new command to the game to save the state of the game
+- Add unit tests to the game using Jest to test the game logic
 
 ## Troubleshooting
 
