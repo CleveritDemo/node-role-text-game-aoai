@@ -32,3 +32,6 @@ let run = await openai.beta.threads.runs.createAndPoll(thread.id, {
   instructions:
     "You are a personal math tutor. When asked a math question, write and run code to answer the question.",
 });
+
+// * Recover messages from the run
+const messages = await openai.beta.threads.messages.list(run.thread_id);

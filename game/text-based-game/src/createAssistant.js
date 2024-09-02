@@ -13,7 +13,6 @@ async function createAssistant() {
     );
 
     if (roleMasterAssistant) {
-      console.log("Assistant already exists with ID:", roleMasterAssistant.id);
       return roleMasterAssistant.id;
     }
 
@@ -37,7 +36,6 @@ async function createAssistant() {
       name: "Role Master - Karluiz",
     });
 
-    // return the assistant ID
     return assistant.id;
   } catch (error) {
     console.error("Error:", error);
