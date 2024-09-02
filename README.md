@@ -10,7 +10,7 @@
 
 ### Once you have the file called LORE.md, we will going to create a NodeJS game from a Scratch with the following steps.
 
-## Create a Node.js Project
+## Create a Node.js Project - (Branch: Step-1)
 
 > @workspace /new create a new node project for text based game who is going read from stdin and write to stdout
 
@@ -23,7 +23,7 @@
 3. Run npm install to install dependencies
 4. Test the project with `npm run start`
 
-## Create a Git Ignore File - (Branch: Step-1)
+### Create a Git Ignore File 
 
 - Create a .gitignore file to ignore node_modules and .env files (please don't push my OpenAI API Key ☠️ to any public repository)  
 
