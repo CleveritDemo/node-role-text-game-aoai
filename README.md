@@ -2,6 +2,8 @@
 
 - This project has created branches for each step of the activity, so if you get lost you can always check the branch for the step you are in.
 
+<img alt="GIF" src="https://cdn.ndrz.io/ghadoption/eldaria.gif" style="width: 100%; max-width: 800px; border-radius: 5px;">
+
 ## Create a MD File with a LORE for your Text Game
 
 1. Ask to copilot to create a MD file with a LORE for your Text Game
