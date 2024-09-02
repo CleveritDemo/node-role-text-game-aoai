@@ -72,6 +72,9 @@ start to read from stdin and write to stdout
 - Add persistence to the game using a JSON file to save the state of the game
 - Add a new command to the game to save the state of the game
 - Add unit tests to the game using Jest to test the game logic
+- Ask to copilot how to use nodemon to watch for file changes and restart the server
+- Ask to copilot how to add mongodb support to the project
+- Refactor game.js to dont repeat code and use functions to handle the game logic
 
 ## Troubleshooting
 
