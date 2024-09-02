@@ -2,6 +2,7 @@ require("dotenv").config();
 const readline = require("readline");
 const createAssistant = require("./createAssistant");
 const OpenAI = require("openai");
+const chalk = require("chalk");
 
 // * Create the assistant on start
 async function initializeAssistant() {
@@ -25,7 +26,7 @@ async function initializeGame() {
   const openai = new OpenAI(process.env.OPENAI_API_KEY);
 
   // * Start showing the game introduction
-  console.log("Welcome to the Land of Eldoria!");
+  console.log(chalk.green("Welcome to the Land of Eldoria!"));
 
   // * List Options
   console.log("Choose and Option:");
@@ -84,7 +85,10 @@ async function initializeGame() {
                 (message) => message.role === "assistant"
               );
 
-              console.log("Assistant:", assistantMessage.content[0].text.value);
+              console.log(
+                chalk.yellow("\nAssistant:"),
+                assistantMessage.content[0].text.value
+              );
               clearInterval(loader);
             }
           } catch (error) {
@@ -129,7 +133,10 @@ async function initializeGame() {
                 (message) => message.role === "assistant"
               );
 
-              console.log("Assistant:", assistantMessage.content[0].text.value);
+              console.log(
+                chalk.yellow("\nAssistant:"),
+                assistantMessage.content[0].text.value
+              );
               clearInterval(loader);
             }
           } catch (error) {

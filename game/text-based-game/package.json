@@ -9,6 +9,7 @@
   "author": "Your Name",
   "license": "MIT",
   "dependencies": {
+    "chalk": "^4.1.2",
     "dotenv": "^16.4.5",
     "openai": "^4.57.0"
   },
