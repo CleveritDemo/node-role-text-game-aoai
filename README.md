@@ -27,7 +27,7 @@
 
 - Create a .gitignore file to ignore node_modules and .env files (please don't push my OpenAI API Key ☠️ to any public repository)  
 
-> @workspace create a gitignore for this project, knowing that all the projects is inside a folder called game/text-based-game so for example the node_modules file is located at game/text-based-game/node_modules
+> @workspace create a .gitignore for this node project, Taking into account that all the projects is located inside a folder called game/text-based-game so for example: the node_modules golder is located at game/text-based-game/node_modules
 
 ## Create your Open AI Assistant - (Branch: Step-2)
 
@@ -71,6 +71,12 @@ start to read from stdin and write to stdout
 - Create a new file called INSTRUCTIONS.md with the instructions for the game
 - Add persistence to the game using a JSON file to save the state of the game
 - Add a new command to the game to save the state of the game
+- Add unit tests to the game using Jest to test the game logic
+
+## Exercices
+
+- Ask to copilot how to use nodemon to watch for file changes and restart the server
+- Ask to copilot how to add mongodb support to the project
 
 ## Troubleshooting
 
