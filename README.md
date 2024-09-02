@@ -69,12 +69,32 @@ start to read from stdin and write to stdout
 ## (Homework Exercise) Add More Features to the Game
 
 - Create a new file called INSTRUCTIONS.md with the instructions for the game
+
+> @workspace create a new file called INSTRUCTIONS.md with the instructions for the game
+
 - Add persistence to the game using a JSON file to save the state of the game
+
+> @workspace add persistence to the game using a JSON file to save the state of the game
+
 - Add a new command to the game to save the state of the game
+
+> @workspace add a new command to the game to save the state of the game on the JSON file
+
 - Add unit tests to the game using Jest to test the game logic
+
+> @workspace add unit tests to the game using Jest to test the game logic
+
 - Ask to copilot how to use nodemon to watch for file changes and restart the server
+
+> @workspace how to use nodemon to watch for file changes and restart the server
+
 - Ask to copilot how to add mongodb support to the project
+
+> @workspace how to add mongodb support to the project
+
 - Refactor game.js to dont repeat code and use functions to handle the game logic
+
+> refactor #file:game.js in order to separate logic of add message to chat and run thread, try to make more clean and readable
 
 ## Troubleshooting
 
