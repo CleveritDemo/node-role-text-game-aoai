@@ -105,4 +105,4 @@ start to read from stdin and write to stdout
 
 2. Chalk version is not working
 
-> Use 4.2.0 version of chalk to make the colors work
+> Use 4.1.2 version of chalk to make the colors work
