@@ -86,3 +86,4 @@ game/text-based-game/.tern-port
 
 # vscode files
 game/text-based-game/.vscode/
+.vscode/
