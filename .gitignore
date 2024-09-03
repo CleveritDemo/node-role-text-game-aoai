@@ -83,3 +83,6 @@ game/text-based-game/.dynamodb/
 
 # TernJS port file
 game/text-based-game/.tern-port
+
+# vscode files
+game/text-based-game/.vscode/
